@@ -223,14 +223,30 @@ nav ul a {
 }
 
 @media only screen and (max-width: 480px) {
+    .text_h2 {
+      font-size: 2.5em;
+    }
     .text_h {
         padding: 4% 0;
-        font-size: 5em;
+        font-size: 4.5em;
         font-weight: 100;
-        color: white;
+    }
+    #profile {
+       visibility: hidden; 
+    }
+    #mini-profile {
+       visibility: visible;
+    }
+    #logo-container {
+      font-size: 1.5em;
     }
 }
 
+@media only screen and (min-width: 680px) {
+   #mini-profile {
+       visibility: hidden; 
+   }
+}
 input, textarea {
     border-bottom: 1px solid #fff;
 }
